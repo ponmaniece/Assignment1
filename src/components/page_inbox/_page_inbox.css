@@ -1,0 +1,52 @@
+/* PageInbox CSS */
+
+.page-inbox {
+    font-size: 11.5px;
+    position: relative;
+}
+
+.page-inbox input {
+    font-family: 'OpenSansSemiBold';
+    font-size: 11px;
+}
+
+.page-inbox button {
+    font-family: 'OpenSansSemiBold';
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.page-inbox .switch {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    background: var(--primaryColor);
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+
+.page-inbox ::-webkit-scrollbar {
+    width: 6px;
+}
+   
+.page-inbox ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #fff;
+}
+   
+.page-inbox ::-webkit-scrollbar-thumb {
+    background-color: #e3e8ec;
+    border-radius: 5px;
+}

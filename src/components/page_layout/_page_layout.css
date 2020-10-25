@@ -1,0 +1,22 @@
+/* PageLayout CSS */
+
+.page-layout {
+    display: flex;
+}
+
+.page-layout .layout-leftcol {
+    width: 20%;
+}
+
+.page-layout .layout-rightcol {
+    width: 80%;
+}
+
+.page-layout .layout-innercont {
+    display: flex;
+}
+
+.page-layout .layout-innercont .container {
+    width: 77%;
+    border-right: 1px solid #c7c7c7;
+}

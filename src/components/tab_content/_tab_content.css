@@ -1,0 +1,173 @@
+/* Tab Content CSS */
+
+.tab-content {
+    display: flex;
+    border-top: 1px solid #c7c7c7;
+}
+
+.tab-content .col {
+    width: 50%;
+}
+
+.tab-content .col .search {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 4px;
+    background: #f7f9fd;
+    border-left: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    color: var(--secTextColor);
+}
+
+.tab-content .col .search .searchbox {
+    position: relative;
+    top: -8px;
+}
+
+.tab-content .col .search input {
+    border: none;
+    outline: none;
+    background: #f7f9fd;
+    color: var(--secTextColor);
+}
+
+.tab-content .col .search .searchbox img {
+    width: 20px;
+    position: relative;
+    top: 8px;
+    margin-right: 6px;
+}
+
+.tab-content .col .search .arw {
+    width: 13px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.tab-content .col .chat-itemwrap {
+    max-height: 400px;
+    overflow: auto;
+}
+ 
+.tab-content .list-item {
+    border: 1px solid #c7c7c7;
+    background: #f7f9fd;
+    border-top: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-left: 0;
+    margin-left: 0.5px;
+}
+
+.tab-content .list-item.active {
+    background: #fff;
+    border-right-color: #fff;
+}
+
+.tab-content .list-item .userinfo > span:first-child {
+    width: 70%;
+}
+
+.tab-content .list-item.active .userinfo .name,
+.tab-content .list-item.active .userinfo .count {
+    color: var(--primaryColor);
+}
+
+.tab-content .list-item.active .userinfo .name {
+    display: list-item;
+    list-style-position: inside;
+    position: relative;
+    left: -14px;
+}
+
+.tab-content .list-item .userimg {
+    height: 45px;
+    width: 55px;
+    background: #000;
+    border-radius: 5px;
+}
+
+.tab-content .list-item .userimg img {
+    width: 100%;
+}
+
+.tab-content .list-item .userinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.tab-content .list-item .message {
+    line-height: 17px;
+}
+
+.tab-content .list-item .userinfo .name {
+    color: var(--primaryTextColor);
+}
+
+.tab-content .list-item .userinfo .alt {
+    color: var(--secTextColor);
+}
+
+.tab-content .list-item .userinfo .count {
+    width: 26px;
+    background: rgb(187 206 241 / 20%);
+    border-radius: 3px;
+    color: #748ba8;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.tab-content .list-item .userinfo > span {
+    width: 50%;
+    text-align: left;
+}
+
+.tab-content .list-item .userinfo > span:last-child {
+    text-align: right;
+}
+
+.tab-content .list-item .userinfo span span {
+    display: block;
+}
+
+.tab-content .messagebox {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-top: 1px solid #c7c7c7;
+    padding-top: 20px;
+}
+
+.tab-content .messagebox .actions span {
+    width: 25px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.tab-content .messagebox .message {
+    color: var(--secTextColor);
+}
+
+.tab-content .messagebox .actions img {
+    width: 100%;
+}
+
+.tab-content .messagebox .actions .send {
+    width: 20px;
+    background: var(--primaryColor);
+    height: 20px;
+    padding: 4px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    top: -3px;
+}

@@ -1,0 +1,86 @@
+/* Chat Profile CSS */
+.chat-profile {
+    height: 100%;
+    width: 21%;
+    padding: 30px 10px;
+    color: var(--secTextColor);
+}
+
+.chat-profile .value {
+    color: var(--primaryTextColor);
+}
+
+.chat-profile .name {
+    font-size: 13px;
+    line-height: 30px;
+    color: var(--primaryTextColor);
+}
+
+.chat-profile .lastseen span {
+    display: inline-block;
+    line-height: 20px;
+}
+
+.chat-profile span {
+    display: block;
+}
+
+.chat-profile .img {
+    width: 110px;
+}
+
+.chat-profile .linkitem {
+    padding: 10px;
+    text-align: left;
+}
+
+.chat-profile .linkitem .label {
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+.chat-profile .linkitem .value {
+    position: relative;
+    left: -16px;
+    line-height: 28px;
+}
+
+.chat-profile .linkitem .icon {
+    width: 20px;
+    float: left;
+}
+
+.chat-profile .linkitem img {
+    width: 100%;
+}
+
+.chat-profile .linkitem .actions {
+    position: relative;
+    left: -16px;
+    top: 10px;
+}
+
+.chat-profile .linkitem .actions button {
+    font-size: 11px;
+    padding: 3px 18px;
+    color: var(--primaryTextColor);
+    border: 1px solid #d4d4d4;
+}
+
+.chat-profile .linkitem .work {
+    margin-right: 10px;
+    background: #eff1f7;
+}
+
+.chat-profile .linkitem .friends {
+    background: #bdf1dc;
+}
+
+.chat-profile button.send {
+    background: var(--primaryColor);
+    margin: 20px;
+    color: #fff;
+    font-size: 11px;
+    padding: 6px 18px;
+}

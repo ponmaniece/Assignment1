@@ -1,0 +1,32 @@
+/* Header CSS */
+
+.header {
+    border-bottom: 1px solid #c7c7c7;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 0;
+    color: var(--secTextColor);
+}
+
+.header .actions {
+    margin-left: 10px;
+}
+
+.header .actions span {
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.header .actions img {
+    width: 100%;
+}
+
+.header .arw {
+    width: 13px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}

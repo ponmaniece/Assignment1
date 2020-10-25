@@ -1,0 +1,59 @@
+/* ChatItem CSS */
+
+.chat-item {
+    background: linear-gradient(to right, rgba(68, 137, 240, 0.8), var(--primaryColor));
+    padding: 20px;
+    padding-top: 25px;
+    margin: 40px 20px;
+    text-align: left;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+}
+
+.chat-item .profile {
+    position: absolute;
+    top: -15px;
+    width: 30px;
+    left: 20px;
+}
+
+.chat-item .profile img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.chat-item .time {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 10px;
+}
+
+.chat-item:nth-child(2n) {
+    background: #fff;
+    border: 1px solid #c7c7c7;
+    text-align: right;
+    color: var(--primaryTextColor);
+}
+
+.chat-item:nth-child(2n) .time {
+    left: 10px;
+    right: auto;
+    color: var(--secTextColor);
+}
+
+.chat-item:nth-child(2n) .profile {
+    right: 20px;
+    left: auto;
+}
+
+.chat-item .message {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.chat-item .message:last-child {
+    margin-bottom: 0;
+}

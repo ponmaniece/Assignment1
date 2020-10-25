@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'), url(./fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src: local('OpenSansSemiBold'), url(./fonts/OpenSans-SemiBold.ttf) format('truetype');
+}
+
+:root {
+  --primaryColor: #2a6ed5;
+  --primaryBgColor: rgb(66 99 219 / 1);
+  --primaryTextColor: #3c536d;
+  --secTextColor: #b3bcd4;
+}
+
+body {
+  margin: 0;
+  font-family: 'OpenSansSemiBold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
